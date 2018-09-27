@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			body{
+			font: 15px/1.5 Arial, Helvetica,sans-serif;
+			padding:0;
+			margin:0;
+			background-color:#f4f4f4;
+			}
+			
+			.container{
+			width:80%;
+			margin:auto;
+			overflow:hidden;
+			}
+			
+			ul{
+			margin:0;
+			padding:0;
+			}
+			
+			.button_1{
+			height:38px;
+			width:100px;
+			color:#ffffff;
+			background:#e8491d;
+			border:0;
+			}
+			
+			header{
+			background:#35424a;
+			color:#ffffff;
+			padding-top:30px;
+			min-height:50px;
+			border-bottom:#e8491d 3px solid;
+			padding-left:20px;
+			padding-right:20px;
+			}
+			
+			header a{
+			color:#ffffff;
+			text-transform:uppercase;
+			font-size:16px;
+			}
+			
+			header li{
+			display:inline;
+			padding: 0 20px 0 20px;
+			}
+			
+			header #branding{
+				text-algin:center;
+			}
+			
+			header #branding h1{
+				margin-bottom:0;
+				text-align:center;
+				font-size:0;
+				color:rgb(0,0,0);
+			}
+			
+			header nav{
+			text-align:center;
+			margin-top:0px;
+			margin-bottom:20px;
+			}
+			
+			.highlight, header .current a{
+			color:rgb(90,120,200);
+			font-weight:bold;
+			}
+			
+			header a:hover{
+			color:#ADC4CC;
+			}
+			
+			/* Showcase */
+			#showcase{
+			min-height:400px;
+			background:url('https://www.logic-templates.com/wp-content/uploads/2016/04/Sweet-Piano-House-Ableton-DAW-Template.png') no-repeat;
+			text-align:center;
+			color:#ffffff;
+			}
+			
+			#showcase h1{
+			margin-top:100px;
+			margin-bottom:10px;
+			font-size:55px;
+			}
+			
+			#showcase p{
+			font-size:20px;
+			}
+					
+			.beats{
+				float:right;
+			}
+			
+			.container #rap{
+				margin-left:22px;
+			}
+			
+			#work{
+				margin-left:300px;
+			}
+			
+			#work h2{
+				width:400px;
+				margin-top:10px;
+				margin-bottom:5px;
+				margin-left:290px;
+				font-size:40px;
+				font-weight:bold;
+			}
+			
+			.track{
+				position:relative;
+				width:60%;
+			}
+			
+			.tracks{
+				margin-left:360px;
+			}
+			
+			.tracks h2{
+			    margin-left:255px;
+			}
+			
+			#imagepush{
+				width:300px;
+				height:auto;
+				float:left;
+				white-space:nowrap;
+				display:inline;
+			}
+			
+			#push{
+				float:left;
+				white-space:nowrap;
+				display:inline;
+			}
+			
+			.text{
+				width:100px;
+				overflow:hidden;
+				display:inline; 
+				white-space:nowrap;
+			}
+			
+		</style>
+		<meta name="vieuwport" content="width=device-width">
+		<meta name="description" content="TP Productions">
+		<meta name="author" content="Maarten Keus">
+		<title>TP Productions</title>
+		<link rel="shortcut icon" type="image/jpg" href="img/webicon.jpg">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section id="showcase">
+		</section>
+		
+		<div id="push">
+			<img id="imagepush" src="https://d16rm6ap8dyyo6.cloudfront.net/product_images/images/000/003/581/medium/push_pad2.jpg?1517860794" />
+		</div>
+		<section class="text">
+			<div id="work">
+				<h2>My work</h2>
+			</div>
+			<div class="tracks">
+				<h2>Omega</h2>
+				<audio class="track" controls>
+					<source src="sound/Omega.mp3" type="audio/mpeg">
+				</audio>
+			</div>
+		</section>
+		
+		<section class="text">
+			<div class="tracks">
+				<h2>Tupacase</h2>
+				<audio class="track" controls="controls" src="sound/Tupacase.mp3">
+				</audio>
+			</div>
+		</section>
+		
+		<section class="text">
+			<div class="tracks">
+				<h2>Rimshot</h2>
+				<audio class="track" controls>
+					<source src="sound/RealRimshot.mp3" type="audio/mp3">
+				</audio>
+			</div>
+		</section>
+	</body>
+</html>
